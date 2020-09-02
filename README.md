@@ -5,4 +5,6 @@ Documentation of CrossRef schema [here](https://gitlab.com/crossref/schema/-/rel
 
 Generated via EclipseLink.
 
+## Excerpt
+
 ![UML class diagram](https://github.com/semuelle/crossref-java/blob/master/uml/uml-excerpt.png)
