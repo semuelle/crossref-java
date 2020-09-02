@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated crossref -->
+      <package
+            uri="http://www.crossref.org/schema/4.4.2"
+            class="org.crossref.schema._4._4._4Package"
+            genModel="src/crossref.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated crossref -->
+      <parser
+            type="_4"
+            class="org.crossref.schema._4._4.util._4ResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated crossref -->
+      <package
+            uri="http://www.ncbi.nlm.nih.gov/JATS1"
+            class="gov.nih.nlm.ncbi.jats1.Jats1Package"
+            genModel="src/crossref.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated crossref -->
+      <parser
+            type="jats1"
+            class="gov.nih.nlm.ncbi.jats1.util.Jats1ResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated crossref -->
+      <package
+            uri="http://www.w3.org/1999/xlink"
+            class="org.w3._1999.xlink.XlinkPackage"
+            genModel="src/crossref.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated crossref -->
+      <parser
+            type="xlink"
+            class="org.w3._1999.xlink.util.XlinkResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated crossref -->
+      <package
+            uri="http://www.w3.org/XML/1998/namespace"
+            class="org.w3.xml._1998.namespace.NamespacePackage"
+            genModel="src/crossref.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated crossref -->
+      <parser
+            type="namespace"
+            class="org.w3.xml._1998.namespace.util.NamespaceResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated crossref -->
+      <package
+            uri="http://www.w3.org/1998/Math/MathML"
+            class="org.w3._1998.math.math.ml.MlPackage"
+            genModel="src/crossref.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated crossref -->
+      <parser
+            type="ml"
+            class="org.w3._1998.math.math.ml.util.MlResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated crossref -->
+      <package
+            uri="http://www.niso.org/schemas/ali/1.0/"
+            class="org.niso.schemas.ali._1._0._0Package"
+            genModel="src/crossref.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated crossref -->
+      <parser
+            type="_0"
+            class="org.niso.schemas.ali._1._0.util._0ResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated crossref -->
+      <package
+            uri="http://www.crossref.org/fundref.xsd"
+            class="org.crossref.fundref.FundrefPackage"
+            genModel="src/crossref.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated crossref -->
+      <parser
+            type="fundref"
+            class="org.crossref.fundref.util.FundrefResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated crossref -->
+      <package
+            uri="http://www.crossref.org/relations.xsd"
+            class="org.crossref.relations.RelationsPackage"
+            genModel="src/crossref.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated crossref -->
+      <parser
+            type="relations"
+            class="org.crossref.relations.util.RelationsResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated crossref -->
+      <package
+            uri="http://www.crossref.org/AccessIndicators.xsd"
+            class="org.crossref.access.indicators.IndicatorsPackage"
+            genModel="src/crossref.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated crossref -->
+      <parser
+            type="indicators"
+            class="org.crossref.access.indicators.util.IndicatorsResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated crossref -->
+      <package
+            uri="http://www.crossref.org/clinicaltrials.xsd"
+            class="org.crossref.clinicaltrials.ClinicaltrialsPackage"
+            genModel="src/crossref.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated crossref -->
+      <parser
+            type="clinicaltrials"
+            class="org.crossref.clinicaltrials.util.ClinicaltrialsResourceFactoryImpl"/>
+   </extension>
+
+</plugin>
